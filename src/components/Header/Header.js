@@ -20,7 +20,9 @@ const Wrapper = styled.header`
 const Logo = styled.img.attrs({
     src: rateTheHeroLogo,
     alt: 'Logo de "Rate the Hero"',
-});
+})`
+    height: 100%
+`;
 
 export default function Header() {
     return (

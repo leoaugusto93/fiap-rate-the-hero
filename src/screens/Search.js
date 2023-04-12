@@ -1,14 +1,5 @@
-import Alert from "../common-components/Alert/Alert";
-import Button from "../common-components/Button/Button";
+import HeroCard from "../components/HeroCard/HeroCard";
 
 export default function Search() {
-    return (
-        <div>
-            Hello World!
-            <hr/>
-            <Button>Buscar</Button>
-            <hr/>
-            <Alert type="success">Lorem Ipsum</Alert>
-        </div>
-    );
+    return <HeroCard>Teste</HeroCard>
 }
