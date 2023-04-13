@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import {
-    BorderRadiuses, Colors, FontSizes, Spaces
+    BorderRadiuses,
+    Colors,
+    FontSizes,
+    Spaces,
 } from '../../shared/DesignTokens';
 
 const colorMapper = {

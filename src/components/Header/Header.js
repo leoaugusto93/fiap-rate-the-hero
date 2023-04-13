@@ -10,10 +10,12 @@ const Wrapper = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: ${Spaces.FIVE};
 
     @media (min-width: 1024px) {
         height: 90px;
         padding: ${Spaces.TWO};
+        margin-bottom: ${Spaces.EIGHT};
     }
 `;
 
